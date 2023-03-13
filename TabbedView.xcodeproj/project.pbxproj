@@ -11,6 +11,7 @@
 		1B221FBC29BF87FD00B7F51C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B221FBB29BF87FD00B7F51C /* ContentView.swift */; };
 		1B221FBE29BF87FF00B7F51C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B221FBD29BF87FF00B7F51C /* Assets.xcassets */; };
 		1B221FC129BF87FF00B7F51C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B221FC029BF87FF00B7F51C /* Preview Assets.xcassets */; };
+		1B221FC829BF895000B7F51C /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B221FC729BF895000B7F51C /* TabView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,8 @@
 		1B221FBB29BF87FD00B7F51C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1B221FBD29BF87FF00B7F51C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1B221FC029BF87FF00B7F51C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1B221FC729BF895000B7F51C /* TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
+		1B221FE329BF908300B7F51C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +38,7 @@
 		1B221FAD29BF87FD00B7F51C = {
 			isa = PBXGroup;
 			children = (
+				1B221FE329BF908300B7F51C /* README.md */,
 				1B221FB829BF87FD00B7F51C /* TabbedView */,
 				1B221FB729BF87FD00B7F51C /* Products */,
 			);
@@ -51,6 +55,7 @@
 		1B221FB829BF87FD00B7F51C /* TabbedView */ = {
 			isa = PBXGroup;
 			children = (
+				1B221FC729BF895000B7F51C /* TabView.swift */,
 				1B221FB929BF87FD00B7F51C /* TabbedViewApp.swift */,
 				1B221FBB29BF87FD00B7F51C /* ContentView.swift */,
 				1B221FBD29BF87FF00B7F51C /* Assets.xcassets */,
@@ -138,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B221FBC29BF87FD00B7F51C /* ContentView.swift in Sources */,
+				1B221FC829BF895000B7F51C /* TabView.swift in Sources */,
 				1B221FBA29BF87FD00B7F51C /* TabbedViewApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
